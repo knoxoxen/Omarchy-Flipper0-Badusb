@@ -1,9 +1,0 @@
-REM RUN DOWNLOADED .SH
-GUI ENTER
-DELAY 1000
-STRING wget https://raw.githubusercontent.com/knoxoxen/Omarchy-Flipper0-Badusb/main/launchers/sinewaves/sinewaves.sh
-ENTER
-DELAY 5000
-STRING chmod 777 sinewaves.sh
-ENTER
-STRINGLN ./sinewaves.sh
